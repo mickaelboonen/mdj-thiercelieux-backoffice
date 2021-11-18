@@ -4,4 +4,4 @@
 
 1 - df
 
-2 - fr  # mdj-thiercelieux-backoffice
+2 - fr

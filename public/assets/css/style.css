@@ -1,0 +1,20 @@
+.col-actions {
+    width: 60px;
+}
+
+.new-moon-picture,
+.roles-picture,
+.avatar {
+    width: 5rem;
+}
+
+td {
+    height: 5rem !important;
+    overflow: auto !important;
+}
+
+.description {
+    height: 10rem;
+    overflow: auto;
+
+}
