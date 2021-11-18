@@ -46,10 +46,10 @@ CREATE TABLE IF NOT EXISTS `games` (
 --
 
 INSERT INTO `games` (`id`, `name`, `hash`, `description`, `picture`, `icon`, `specificity`, `created_at`, `updated_at`) VALUES
-(1, 'Loup-Garou de Thiercelieux', 'loup-garou-de-thiercelieux', '<p>Dans \"l\'Est sauvage\", le petit hameau de Thiercelieux est depuis peu devenu la proie des Loups-Garous. </p><p>Des meurtres sont commis chaque nuit par certains habitants du villages, devenus Lycanthropes à cause d\'un phénomène mystérieux (peut-être l\'effet de serre ?)... </p><p>Les Villageois doivent se ressaisir pour éradiquer ce nouveau fléau venu du fond des âges, avant que le hameau ne perde ses derniers habitants.</p>', 'sdfds', 'dsfs', 0, '2021-09-08 13:43:20', '2021-09-09 17:07:00'),
-(2, 'Nouvelle Lune', 'nouvelle-lune', '<p>Bienvenue dans ce nouvel opus \"Locatercien\", puisqu\'ainsi se nomment les habitants de Thiercelieux, hameau dévasté. </p><p> Le village étant devenu trop dangereux pour certains d\'entre nous, c\'est en exil forcé que nous mettons la dernière main à cet ouvrage. </p><p> Des messages secrets, au péril de leur vie, sont venus nous trouver dans notre retraite cachée et nous ont faits part de l\'évolution de la terrible menace. </p><p> Toutefois la résistance s\'organise et de nouveaux personnages aux talents prometteurs ont rejoint le combat contre les terribles Loups-Garous !</p>', 'fghf', 'gfhgf', 0, '2021-09-08 13:43:20', '2021-09-09 17:53:42'),
-(3, 'Personnages', 'personnages', '<p>Depuis de nombreux cycles lunaires, la quiétude était enfin revenue dans les environs de \"Thiercelieux\". Jusqu\'à ce qu\'un \"enfançon sauvage\" regagne la forêt profonde et commence à hurler chaque nuit. </p><p> Peu de temps après, de nouvelles disparitions mystérieuses ainsi que d\'atroces vestiges criminels convainquirent les habitants du village que des monstres polymorphes encore plus redoutables vivaient parmi eux. <br/>Ils convoquèrent alors, depuis les confins de la contrée, d\'autres \"<b>Personnages</b>\" très puissants, pour lutter contre cette abominable engeance...</p>', 'fdsfs', 'dsfsd', 0, '2021-09-08 13:43:20', '2021-09-09 17:37:10'),
-(4, 'Le Village', 'le-village', '<p>Le village de Thiercelieux n\'était plus qu\'un désert de ruines. De tous les recoins du pays, les volontaires ont afflué pour s\'installer dans les maisons, les fermes et les échoppes flambant neuves et recréer une vie digne de ce site merveilleux.</p><p>Toutefois il demeure que certains esprits chagrins font courir un bruit inquiétant : de sinistres loups-garous se seraient immiscés dans leur nouvelle communauté !</p>', 'dfgd', 'gfhdf', 0, '2021-09-08 13:43:20', '2021-09-09 17:38:08'),
+(1, 'Loup-Garou de Thiercelieux', 'loup-garou-de-thiercelieux', `<p>Dans \"l\'Est sauvage\", le petit hameau de Thiercelieux est depuis peu devenu la proie des Loups-Garous. </p><p>Des meurtres sont commis chaque nuit par certains habitants du villages, devenus Lycanthropes à cause d\'un phénomène mystérieux (peut-être l\'effet de serre ?)... </p><p>Les Villageois doivent se ressaisir pour éradiquer ce nouveau fléau venu du fond des âges, avant que le hameau ne perde ses derniers habitants.</p>`, 'sdfds', 'dsfs', 0, '2021-09-08 13:43:20', '2021-09-09 17:07:00'),
+(2, 'Nouvelle Lune', 'nouvelle-lune', `<p>Bienvenue dans ce nouvel opus \"Locatercien\", puisqu\'ainsi se nomment les habitants de Thiercelieux, hameau dévasté. </p><p> Le village étant devenu trop dangereux pour certains d\'entre nous, c\'est en exil forcé que nous mettons la dernière main à cet ouvrage. </p><p> Des messages secrets, au péril de leur vie, sont venus nous trouver dans notre retraite cachée et nous ont faits part de l\'évolution de la terrible menace. </p><p> Toutefois la résistance s\'organise et de nouveaux personnages aux talents prometteurs ont rejoint le combat contre les terribles Loups-Garous !</p>`, 'fghf', 'gfhgf', 0, '2021-09-08 13:43:20', '2021-09-09 17:53:42'),
+(3, 'Personnages', 'personnages', `<p>Depuis de nombreux cycles lunaires, la quiétude était enfin revenue dans les environs de \"Thiercelieux\". Jusqu\'à ce qu\'un \"enfançon sauvage\" regagne la forêt profonde et commence à hurler chaque nuit. </p><p> Peu de temps après, de nouvelles disparitions mystérieuses ainsi que d\'atroces vestiges criminels convainquirent les habitants du village que des monstres polymorphes encore plus redoutables vivaient parmi eux. <br/>Ils convoquèrent alors, depuis les confins de la contrée, d\'autres \"<b>Personnages</b>\" très puissants, pour lutter contre cette abominable engeance...</p>`, 'fdsfs', 'dsfsd', 0, '2021-09-08 13:43:20', '2021-09-09 17:37:10'),
+(4, 'Le Village', 'le-village', `<p>Le village de Thiercelieux n\'était plus qu\'un désert de ruines. De tous les recoins du pays, les volontaires ont afflué pour s\'installer dans les maisons, les fermes et les échoppes flambant neuves et recréer une vie digne de ce site merveilleux.</p><p>Toutefois il demeure que certains esprits chagrins font courir un bruit inquiétant : de sinistres loups-garous se seraient immiscés dans leur nouvelle communauté !</p>`, 'dfgd', 'gfhdf', 0, '2021-09-08 13:43:20', '2021-09-09 17:38:08'),
 (5, 'Site', '', '', NULL, '', 0, '2021-09-08 13:43:20', '2021-09-08 13:43:20');
 
 -- --------------------------------------------------------
@@ -149,14 +149,14 @@ INSERT INTO `roles` (`id`, `name`, `picture`, `excerpt`, `description`, `side`, 
 (13, 'Joueur de Flûte', '', NULL, 'Lorem', 'Village', 2, 0),
 (14, 'Gitane', '', NULL, 'Lorem', 'Village', 2, 0),
 (15, 'Enfant Sauvage', '', NULL, 'Lorem', 'Ambigü', 3, 0),
-(16, 'Chevalier à l\'Épée rouillée', '', NULL, 'Lorem', 'Village', 3, 0),
+(16, `Chevalier à l\'Épée rouillée`, '', NULL, 'Lorem', 'Village', 3, 0),
 (17, 'Villageois Villageois', '', NULL, 'Lorem', 'Village', 3, 0),
 (18, 'Ange', '', NULL, 'Lorem', 'Solitaire', 3, 0),
 (19, 'Infect Père des Loups', '', NULL, 'Lorem', 'Loup-Garou', 3, 0),
 (20, 'Grand Méchant Loup', '', NULL, 'Lorem', 'Loup-Garou', 3, 0),
 (21, 'Soeurs', '', NULL, 'Lorem', 'Village', 3, 0),
 (22, 'Frères', '', NULL, 'Lorem', 'Village', 3, 0),
-(23, 'Montreur d\'Ours', '', NULL, 'Lorem', 'Village', 3, 0),
+(23, `Montreur d\'Ours`, '', NULL, 'Lorem', 'Village', 3, 0),
 (24, 'Renard', '', NULL, 'Lorem', 'Village', 3, 0),
 (25, 'Chien-Loup', '', NULL, 'Lorem', 'Ambigü', 3, 0),
 (26, 'Juge Bègue', '', NULL, 'Lorem', 'Village', 3, 0),
@@ -222,7 +222,7 @@ CREATE TABLE IF NOT EXISTS `specificities` (
 --
 
 INSERT INTO `specificities` (`id`, `name`, `hash`, `description`, `game_id`, `created_at`, `updated_at`) VALUES
-(1, 'Variantes', 'variantes', '<p>En dehors des règles de base, il existe de nombreuses façons de jouer aux Loups-Garous de Thiercelieux.</p><p>Ces variantes résultent des facéties que nous nous permettons durant les innombrables parties que nous avons animées ainsi qu\\\'une sélection de certaines de vos nombreuses propositions postées sur notre site <a href=\"www.loups-garous.com\">www.loups-garous.com</a>.\"</p><p>Nous vous proposons ici le meilleur de ces variantes, testées et optimisées pour renouveler votre plaisir de jouer.</p>', 2, '2021-09-10 14:08:23', '2021-09-10 14:08:23'),
+(1, 'Variantes', 'variantes', `<p>En dehors des règles de base, il existe de nombreuses façons de jouer aux Loups-Garous de Thiercelieux.</p><p>Ces variantes résultent des facéties que nous nous permettons durant les innombrables parties que nous avons animées ainsi qu\\\'une sélection de certaines de vos nombreuses propositions postées sur notre site <a href=\"www.loups-garous.com\">www.loups-garous.com</a>.\"</p><p>Nous vous proposons ici le meilleur de ces variantes, testées et optimisées pour renouveler votre plaisir de jouer.</p>`, 2, '2021-09-10 14:08:23', '2021-09-10 14:08:23'),
 (3, 'Nouvelle Lune', 'nouvelle-lune', 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, accusamus dolorum et beatae quos eveniet repudiandae, hic consectetur voluptatum aspernatur dolorem dignissimos tempore. Dicta ea nostrum, illum assumenda modi nihil aliquam officia dignissimos, debitis perspiciatis quos corporis architecto illo odit nemo consectetur nesciunt fuga, quidem eligendi doloribus? Ut, vitae doloribus.', 2, '2021-09-10 14:31:04', '2021-09-10 14:31:04'),
 (4, 'Le Village', 'le-village', 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, accusamus dolorum et beatae quos eveniet repudiandae, hic consectetur voluptatum aspernatur dolorem dignissimos tempore. Dicta ea nostrum, illum assumenda modi nihil aliquam officia dignissimos, debitis perspiciatis quos corporis architecto illo odit nemo consectetur nesciunt fuga, quidem eligendi doloribus? Ut, vitae doloribus.', 4, '2021-09-10 14:31:29', '2021-09-10 14:31:29');
 
@@ -259,33 +259,35 @@ INSERT INTO `users` (`id`, `pseudo`, `email`, `password`, `avatar`, `role`, `sta
 -- Structure de la table `village`
 --
 
-DROP TABLE IF EXISTS `village`;
-CREATE TABLE IF NOT EXISTS `village` (
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE IF NOT EXISTS `users` (
   `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT,
-  `name` varchar(64) NOT NULL,
-  `description` text,
-  `building` bit(1) NOT NULL,
-  `token` varchar(20) NOT NULL,
-  `quantity` int(10) UNSIGNED NOT NULL,
-  `permanent` bit(1) NOT NULL,
+  `pseudo` varchar(50) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `avatar` varchar(255) NOT NULL,
+  `role` varchar(100) NOT NULL DEFAULT 'user',
+  `status` tinyint(1) NOT NULL DEFAULT '1',
+  `created_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=46 DEFAULT CHARSET=utf8;
 
 --
--- Déchargement des données de la table `village`
+-- Déchargement des données de la table `users`
 --
 
-INSERT INTO `village` (`id`, `name`, `description`, `building`, `token`, `quantity`, `permanent`) VALUES
-(1, 'Vagabond', 'Lorem', b'0', 'vagabond', 15, b'1'),
-(2, 'Ferme', 'Lorem', b'1', 'vache', 6, b'1'),
-(3, 'Église', 'Lorem', b'1', 'confesseur', 1, b'0'),
-(4, 'Masure', 'Lorem', b'1', 'potion', 1, b'0'),
-(5, 'Boulangerie', 'Lorem', b'1', 'pain', 1, b'1'),
-(6, 'Barbier', 'Lorem', b'1', 'rasoir', 1, b'0'),
-(7, 'Timbale', 'Lorem', b'1', 'timbale', 1, b'1'),
-(8, 'Manoir', 'Lorem', b'1', 'blason', 1, b'0'),
-(9, 'École', 'Lorem', b'1', 'cloche\' d\'école', 1, b'1'),
-(10, 'Bailli', 'Lorem', b'1', 'clefs', 1, b'1');
+INSERT INTO `users` (`id`, `pseudo`, `email`, `password`, `avatar`, `role`, `status`, `created_at`, `updated_at`) VALUES
+(1, 'Lestrarcher', 'mickael.kern@hotmail.fr', '$2b$10$6qzghZKmYzTJ8q.6ED2HIuCz9Jz9/tmYIDh4p/xFPVrgJfMu3ceFK', 'https://images2.imgbox.com/6b/e1/ndJ0lsm4_o.png', 'admin', 1, '2021-09-21 11:44:15', '2021-09-21 11:44:15'),
+(2, 'hel', 'adressebidon@hotmail.fr', '$2b$10$W75HBGdpAQ5oNMFzFCNU8.d3SlC2YMTQsHlDvBiKzqm.QGV1zHGfO', 'https://images2.imgbox.com/15/c9/bFUlvk0I_o.png', 'game-manager', 1, '2021-09-21 11:44:15', '2021-09-21 11:44:15'),
+(3, 'Carlos', 'kaa-micka@hotmail.fr', '$2b$10$J0qIdEWOTIeJzzj8uReDMuIAI7EIiiykodblcPqn6beLP26amW7E6', 'https://images2.imgbox.com/bb/70/hSfQ2L5K_o.png', 'game-manager', 1, '2021-09-21 11:44:15', '2021-09-21 11:44:15'),
+(8, 'hismione', 'hismione@lune.fr', '$2b$10$pkS8RDtTbS.CuUehJ/rUY.1vMRQhV.RevSTanH3SV0IgchnjpIdfe', '/images/e449e204e65781fbab1109fa2f96315c.gif', 'user', 1, '2021-10-05 17:09:58', '2021-10-05 17:09:58'),
+(38, 'Borak', 'waterbender@waternation.com', '$2b$10$DjwK/BSGu6JGePw8lzywTOrv9LxIXUlOZIZ5bjORlx20UzrxChba2', '/images/e449e204e65781fbab1109fa2f96315c.gif', 'user', 1, '2021-10-06 01:40:46', '2021-10-06 01:40:46'),
+(39, 'Stolas', 'water-bender@waternation.com', '$2b$10$btVQ/TBS4StacEzHxw4NWu20O6RurHWOBynizWsCw.v0W0G4tGFA6', '/images/e449e204e65781fbab1109fa2f96315c.gif', 'user', 1, '2021-10-06 01:43:40', '2021-10-06 01:43:40'),
+(40, 'Mako', 'air-bender@airnation.com', '$2b$10$aCg3.LN8H73oIGQ0ldpPR.IPuiC.1CLRQLeUHibLw7zHXPWXM0256', '/images/e449e204e65781fbab1109fa2f96315c.gif', 'user', 1, '2021-10-06 01:44:21', '2021-10-06 01:44:21'),
+(41, 'Sixtou', 'sixtou@chat.meow', '$2b$10$OFiDfVgCFHZiwssTr9zSEepEpnC5UIlcU67GnQPZDDzX.Wu3dCE16', 'https://images2.imgbox.com/15/c9/bFUlvk0I_o.png', 'guest', 1, '2021-10-06 15:23:38', '2021-10-16 17:38:04'),
+(44, 'christouf', 'weshchristouf@hotmail.fr', '$2b$10$VfUPg/lLCas8Id6bYmV0RuTYqFaGkjPeoJ2xJPBm1..mHM.h3NzT6', 'https://images2.imgbox.com/15/c9/bFUlvk0I_o.png', 'user', 1, '2021-10-30 15:49:54', '2021-10-30 15:49:54'),
+(45, 'Le Petiot', 'lepetiot@mdj-thiercelieux.fr', '$2y$10$GTMwIJhwHKlb8ojA2dJNGelkNeOX51gwS1mpzPR/23HdO05Fqm8fe', 'empty', 'guest', 1, '2021-11-18 15:57:33', '2021-11-18 15:57:33');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
