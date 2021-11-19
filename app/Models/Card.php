@@ -60,7 +60,6 @@ class Card extends CoreModel
     {
         // pdo object that represents the connection to the DB
         $pdo = Database::getPDO();
-        dump($pdo);
         // SQL request
         $sql = 'SELECT * FROM `new_moon`';
         // Preparing and executing the request (query to read)

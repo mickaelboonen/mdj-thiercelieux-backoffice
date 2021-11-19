@@ -22,7 +22,7 @@
     <div class="form-group">
         <label for="side">Camp du Rôle</label>
         <select class="custom-select" name="side" id="side" aria-describedby="sideHelpBlock">
-            <?php $sides=["Village", "Loup-Garou", "Ambigü", "Solitaire"]; dump($sides) ?>
+            <?php $sides=["Village", "Loup-Garou", "Ambigü", "Solitaire"]; ?>
             <?php foreach ($sides as $currentSide) : ?>
                 <option <?= $role->getSide() === $currentSide ? 'selected' : ''; ?> value="<?= $currentSide; ?>"><?= $currentSide; ?></option>
             <?php endforeach; ?>

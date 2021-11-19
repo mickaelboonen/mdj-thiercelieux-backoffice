@@ -125,8 +125,6 @@ class CardController extends CoreController {
         $picture = filter_input(INPUT_POST, 'picture', FILTER_SANITIZE_STRING);
         $description = filter_input(INPUT_POST, 'description', FILTER_SANITIZE_STRING);
         $phase = filter_input(INPUT_POST, 'phase', FILTER_SANITIZE_STRING);
-
-        dump($description);
         
         /**
          * Instantiation of the current Card with the method find()

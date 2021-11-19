@@ -323,7 +323,6 @@ class UserController extends CoreController {
         if($status != '1' && $status != '2') {
             $errorsList[] = "Le statut n'existe pas.";
         }
-        // dump($errorsList);
 
         // If there are no error in the errorsList array
         if (empty($errorsList)) {
